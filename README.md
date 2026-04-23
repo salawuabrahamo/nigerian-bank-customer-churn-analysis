@@ -1,4 +1,4 @@
-![Dashboard Screenshot](Capture3.PNG)
+![Dashboard Screenshot](CapturE3.PNG)
 # 📊 Nigerian Bank Customer Churn Analysis
 
 ## 📌 Project Overview
@@ -61,11 +61,9 @@ Savings account holders show slightly higher churn compared to current account h
 - Target low-activity customers with incentives  
 - Focus retention strategies on high-churn regions  
 
-
 ## 🛠 Tools Used
 - Power BI (Dashboard & Visualization)  
 - Excel / CSV (Data Source)  
-
 
 ## 📁 Project Files
 - Dataset (CSV file)  
@@ -73,15 +71,11 @@ Savings account holders show slightly higher churn compared to current account h
 - Dashboard Screenshots  
 - Project Documentation  
 
-## 📽️ Project Demo
-*A video walkthrough of the dashboard is included in this repository.*
-
----
-
 ## 🚀 Key Takeaway
 This project demonstrates that customer churn is **behavior-driven**, and understanding these behaviors enables businesses to take proactive steps to improve retention.
 
----
 
 ## 📬 Contact
 Feel free to connect with me on LinkedIn or reach out for collaboration or feedback.
+
+🔗 LinkedIn: https://linkedin.com/in/abraham-salawu-a9113215b
