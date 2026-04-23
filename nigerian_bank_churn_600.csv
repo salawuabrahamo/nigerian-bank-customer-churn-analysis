@@ -1,0 +1,601 @@
+CustomerID,Age,Gender,Region,AccountBalance,Tenure,TransactionsPerMonth,AccountType,LoanStatus,DigitalBanking,Churn
+1001,59,Female,Port Harcourt,893698,10,10,Current,No,No,No
+1002,49,Male,Ibadan,696787,9,3,Savings,No,Yes,Yes
+1003,35,Male,Enugu,1357803,7,19,Savings,Yes,Yes,No
+1004,28,Female,Lagos,762406,1,17,Current,Yes,No,No
+1005,41,Male,Enugu,863804,8,7,Savings,Yes,No,No
+1006,59,Male,Port Harcourt,668074,4,21,Current,No,Yes,No
+1007,39,Female,Lagos,981568,3,20,Savings,No,Yes,No
+1008,43,Female,Enugu,1100174,7,26,Savings,No,No,No
+1009,31,Male,Ibadan,309226,3,4,Savings,No,Yes,No
+1010,31,Female,Ibadan,835673,8,14,Current,No,No,Yes
+1011,44,Male,Abuja,247286,6,20,Savings,Yes,Yes,No
+1012,56,Male,Enugu,457785,5,22,Savings,No,No,Yes
+1013,44,Male,Kano,1080321,4,15,Current,Yes,No,No
+1014,23,Female,Enugu,832461,8,24,Current,No,Yes,Yes
+1015,42,Female,Lagos,1212673,8,8,Current,No,No,No
+1016,22,Female,Lagos,252732,1,21,Current,Yes,No,No
+1017,44,Female,Enugu,633474,9,15,Savings,Yes,No,No
+1018,50,Female,Port Harcourt,944044,5,22,Savings,No,Yes,No
+1019,58,Male,Ibadan,904200,4,20,Savings,No,Yes,No
+1020,22,Male,Lagos,233030,6,28,Savings,No,Yes,Yes
+1021,41,Male,Ibadan,744238,6,14,Savings,No,No,No
+1022,53,Male,Lagos,1038652,2,27,Current,Yes,Yes,No
+1023,32,Female,Abuja,1406652,8,29,Savings,No,No,No
+1024,42,Male,Kano,168554,7,9,Savings,Yes,No,No
+1025,45,Female,Lagos,305555,1,8,Savings,No,Yes,No
+1026,47,Male,Ibadan,464191,5,26,Current,Yes,Yes,No
+1027,48,Female,Abuja,1409517,6,28,Current,Yes,No,No
+1028,36,Female,Lagos,334451,4,26,Savings,No,No,Yes
+1029,35,Male,Port Harcourt,940597,2,17,Current,Yes,Yes,Yes
+1030,23,Male,Kano,1352762,4,2,Current,No,Yes,Yes
+1031,57,Male,Lagos,792944,1,25,Current,Yes,Yes,No
+1032,27,Male,Abuja,788747,7,24,Current,No,No,No
+1033,41,Female,Port Harcourt,244695,2,3,Current,Yes,No,Yes
+1034,29,Male,Enugu,904315,2,8,Current,No,No,No
+1035,59,Male,Abuja,1364476,9,12,Current,No,No,No
+1036,38,Female,Abuja,1121844,5,1,Savings,Yes,No,No
+1037,24,Male,Port Harcourt,1281519,2,10,Savings,Yes,Yes,No
+1038,45,Male,Abuja,1490394,11,20,Current,Yes,Yes,Yes
+1039,34,Male,Port Harcourt,728691,9,3,Savings,Yes,No,Yes
+1040,29,Male,Lagos,593189,9,6,Savings,No,No,No
+1041,46,Male,Port Harcourt,1430706,1,7,Current,Yes,Yes,No
+1042,22,Female,Port Harcourt,1263064,11,20,Savings,No,Yes,No
+1043,40,Male,Kano,410530,3,23,Current,Yes,Yes,No
+1044,48,Male,Port Harcourt,682784,4,25,Current,No,Yes,No
+1045,27,Male,Port Harcourt,261531,7,27,Current,No,No,Yes
+1046,28,Male,Enugu,1315269,10,18,Savings,No,Yes,No
+1047,55,Male,Lagos,1014465,4,11,Savings,No,No,No
+1048,34,Female,Kano,939484,2,19,Savings,Yes,Yes,No
+1049,37,Male,Enugu,723650,7,5,Savings,Yes,Yes,No
+1050,56,Female,Ibadan,1306936,6,19,Current,No,Yes,No
+1051,24,Female,Lagos,364855,3,11,Current,Yes,No,No
+1052,22,Male,Lagos,1094961,6,24,Savings,Yes,No,No
+1053,26,Male,Ibadan,451374,11,12,Current,No,Yes,No
+1054,24,Male,Port Harcourt,1484811,6,10,Current,Yes,No,No
+1055,49,Male,Enugu,300783,5,8,Savings,Yes,No,No
+1056,38,Female,Abuja,1154106,4,24,Current,Yes,Yes,No
+1057,46,Male,Kano,303707,10,28,Savings,No,Yes,No
+1058,54,Male,Abuja,397816,1,28,Current,Yes,No,Yes
+1059,30,Male,Ibadan,1498236,10,9,Savings,No,No,No
+1060,56,Male,Lagos,1006420,6,4,Current,Yes,No,No
+1061,34,Male,Lagos,1470503,2,5,Current,Yes,Yes,No
+1062,51,Male,Kano,365114,3,21,Savings,Yes,Yes,No
+1063,35,Female,Lagos,263373,8,8,Savings,No,No,No
+1064,28,Female,Lagos,367697,10,23,Savings,No,Yes,No
+1065,34,Male,Kano,1230355,6,9,Savings,Yes,Yes,No
+1066,43,Male,Enugu,1238758,3,15,Current,No,No,Yes
+1067,41,Male,Enugu,1066914,7,15,Current,Yes,No,No
+1068,36,Female,Kano,976331,4,16,Savings,No,Yes,No
+1069,38,Male,Ibadan,1306836,9,14,Current,No,Yes,No
+1070,44,Female,Lagos,943159,5,8,Savings,Yes,No,No
+1071,46,Male,Lagos,991129,3,18,Savings,Yes,Yes,No
+1072,45,Male,Ibadan,666701,2,10,Current,Yes,Yes,No
+1073,49,Male,Enugu,806958,11,28,Current,Yes,No,No
+1074,35,Male,Port Harcourt,350904,2,20,Savings,No,No,No
+1075,21,Female,Port Harcourt,1116413,3,6,Savings,No,Yes,No
+1076,45,Female,Port Harcourt,538349,2,12,Savings,No,Yes,No
+1077,27,Male,Enugu,804838,4,2,Current,Yes,Yes,No
+1078,29,Male,Enugu,817968,2,7,Current,Yes,No,No
+1079,44,Female,Ibadan,99083,10,16,Current,No,Yes,Yes
+1080,21,Female,Lagos,578819,9,3,Current,Yes,Yes,No
+1081,28,Female,Ibadan,1339432,2,13,Savings,No,No,No
+1082,44,Female,Ibadan,1434821,9,3,Savings,No,No,Yes
+1083,31,Male,Enugu,797147,6,27,Savings,No,Yes,No
+1084,37,Female,Port Harcourt,1068382,1,18,Savings,No,No,No
+1085,28,Male,Abuja,674037,4,11,Savings,No,No,No
+1086,55,Female,Lagos,1058836,1,8,Savings,Yes,Yes,No
+1087,55,Female,Enugu,861047,6,6,Current,Yes,No,No
+1088,53,Female,Port Harcourt,626791,4,1,Current,Yes,No,No
+1089,25,Female,Abuja,1322922,3,28,Savings,No,Yes,No
+1090,59,Female,Abuja,629996,3,1,Savings,No,No,Yes
+1091,48,Male,Enugu,735472,9,23,Current,No,Yes,No
+1092,27,Male,Kano,1064244,6,8,Current,No,Yes,No
+1093,29,Female,Lagos,798513,9,5,Current,Yes,No,Yes
+1094,28,Female,Abuja,1226237,5,28,Current,Yes,No,No
+1095,32,Male,Enugu,180081,2,16,Savings,No,No,No
+1096,54,Female,Enugu,408590,8,11,Savings,No,Yes,No
+1097,53,Female,Port Harcourt,913093,5,5,Savings,No,No,No
+1098,43,Male,Kano,701503,2,4,Savings,Yes,Yes,No
+1099,44,Female,Lagos,1074730,4,6,Savings,Yes,No,No
+1100,57,Female,Ibadan,697164,9,14,Current,Yes,No,No
+1101,55,Male,Port Harcourt,979192,4,22,Savings,No,No,Yes
+1102,42,Male,Abuja,1132864,4,19,Current,No,Yes,No
+1103,47,Male,Abuja,71195,2,9,Savings,Yes,No,No
+1104,55,Female,Port Harcourt,302725,6,12,Savings,No,No,No
+1105,21,Male,Enugu,465864,11,11,Savings,Yes,Yes,No
+1106,55,Male,Abuja,312231,2,14,Savings,No,Yes,Yes
+1107,57,Male,Kano,725290,7,23,Savings,Yes,No,No
+1108,34,Male,Lagos,184053,3,16,Current,No,No,No
+1109,23,Male,Kano,613586,3,1,Current,Yes,No,No
+1110,21,Male,Abuja,1108075,5,13,Current,Yes,Yes,No
+1111,25,Female,Ibadan,1456536,3,23,Savings,Yes,Yes,No
+1112,46,Female,Lagos,465485,2,21,Savings,Yes,Yes,No
+1113,34,Male,Lagos,1313774,10,21,Current,Yes,Yes,No
+1114,59,Male,Port Harcourt,1379507,9,13,Savings,Yes,No,No
+1115,47,Male,Port Harcourt,1366208,2,2,Savings,No,Yes,No
+1116,29,Female,Ibadan,356585,11,4,Current,No,Yes,Yes
+1117,35,Female,Enugu,42431,2,28,Savings,No,Yes,Yes
+1118,35,Female,Lagos,1392401,8,6,Current,Yes,No,No
+1119,46,Female,Ibadan,1263131,9,26,Savings,Yes,No,No
+1120,33,Female,Port Harcourt,667008,7,27,Current,No,Yes,No
+1121,52,Female,Port Harcourt,593441,3,23,Savings,Yes,Yes,No
+1122,59,Female,Lagos,288512,9,27,Savings,Yes,No,No
+1123,52,Female,Kano,918792,3,5,Current,Yes,No,No
+1124,24,Female,Abuja,196076,5,25,Savings,Yes,No,No
+1125,50,Male,Port Harcourt,1288300,9,3,Savings,Yes,No,Yes
+1126,57,Male,Enugu,1383046,3,1,Current,No,No,Yes
+1127,43,Male,Enugu,698758,7,4,Savings,No,No,Yes
+1128,59,Male,Port Harcourt,773753,1,25,Current,No,No,Yes
+1129,35,Female,Kano,70861,4,20,Savings,No,No,Yes
+1130,49,Female,Kano,1406617,4,2,Savings,No,Yes,No
+1131,56,Male,Ibadan,1281553,7,26,Savings,Yes,Yes,No
+1132,33,Female,Enugu,671406,8,5,Savings,Yes,Yes,No
+1133,52,Male,Ibadan,741001,1,3,Current,Yes,Yes,Yes
+1134,27,Female,Enugu,29078,5,29,Savings,Yes,Yes,No
+1135,42,Male,Abuja,344912,7,28,Current,No,Yes,Yes
+1136,48,Female,Abuja,878058,4,29,Savings,No,No,No
+1137,22,Female,Lagos,864092,4,9,Savings,No,No,No
+1138,26,Male,Ibadan,987290,4,20,Savings,Yes,Yes,No
+1139,48,Female,Port Harcourt,1463717,6,6,Savings,No,Yes,No
+1140,48,Male,Ibadan,235048,7,18,Current,Yes,No,Yes
+1141,40,Male,Port Harcourt,780581,2,6,Current,No,No,No
+1142,50,Male,Kano,936838,5,19,Current,No,No,No
+1143,31,Male,Ibadan,669438,4,28,Current,Yes,Yes,No
+1144,48,Female,Kano,1225663,3,12,Savings,Yes,No,Yes
+1145,45,Female,Abuja,53320,7,25,Current,No,Yes,No
+1146,59,Female,Abuja,347025,11,11,Current,No,Yes,No
+1147,53,Male,Lagos,635115,6,2,Savings,Yes,No,No
+1148,21,Female,Ibadan,384359,7,15,Savings,No,No,No
+1149,47,Male,Kano,963793,5,12,Savings,No,Yes,No
+1150,33,Female,Port Harcourt,1328507,6,12,Savings,Yes,No,No
+1151,23,Female,Abuja,963187,5,9,Current,No,No,No
+1152,59,Female,Abuja,426845,7,21,Current,Yes,Yes,No
+1153,26,Male,Port Harcourt,120734,2,24,Savings,No,No,Yes
+1154,28,Female,Kano,177702,11,2,Savings,Yes,Yes,No
+1155,47,Female,Kano,774122,5,22,Savings,No,Yes,No
+1156,29,Male,Ibadan,1245811,6,3,Current,Yes,No,Yes
+1157,57,Female,Ibadan,1167087,6,12,Current,No,Yes,No
+1158,53,Male,Enugu,1003939,5,28,Savings,Yes,Yes,No
+1159,44,Female,Enugu,1342373,10,26,Savings,No,No,No
+1160,35,Male,Lagos,626229,7,16,Current,No,No,No
+1161,52,Male,Abuja,749497,10,21,Savings,No,No,No
+1162,52,Female,Ibadan,118818,8,28,Savings,No,Yes,No
+1163,44,Male,Kano,993950,7,24,Current,No,Yes,Yes
+1164,32,Male,Port Harcourt,172360,5,26,Savings,No,No,No
+1165,59,Male,Kano,639369,1,1,Current,No,Yes,No
+1166,22,Male,Abuja,581165,5,21,Savings,No,No,Yes
+1167,23,Male,Enugu,393706,10,3,Savings,No,No,No
+1168,57,Male,Kano,952817,2,20,Current,Yes,Yes,No
+1169,37,Female,Lagos,1280533,5,2,Current,Yes,No,Yes
+1170,22,Male,Abuja,92715,5,9,Savings,No,Yes,No
+1171,22,Male,Enugu,161398,2,19,Current,Yes,Yes,No
+1172,48,Female,Port Harcourt,1201208,5,15,Savings,No,No,No
+1173,43,Female,Enugu,885580,4,18,Savings,No,Yes,No
+1174,57,Female,Lagos,103186,1,26,Current,Yes,No,Yes
+1175,52,Female,Abuja,1219670,3,11,Savings,No,Yes,Yes
+1176,53,Female,Port Harcourt,614604,1,25,Savings,No,Yes,No
+1177,21,Female,Lagos,1096956,11,23,Current,Yes,Yes,No
+1178,39,Female,Enugu,654486,5,16,Current,Yes,No,No
+1179,22,Male,Lagos,284500,4,22,Savings,No,Yes,Yes
+1180,46,Male,Abuja,90326,7,17,Current,Yes,No,No
+1181,52,Female,Ibadan,898879,5,5,Current,Yes,Yes,Yes
+1182,26,Male,Lagos,659282,10,12,Current,No,Yes,Yes
+1183,52,Male,Lagos,240971,4,11,Current,Yes,No,No
+1184,24,Male,Enugu,826481,2,15,Savings,Yes,No,No
+1185,31,Female,Enugu,1237060,4,27,Savings,No,No,No
+1186,37,Female,Port Harcourt,1051519,2,3,Savings,Yes,No,No
+1187,58,Male,Enugu,809352,8,1,Current,Yes,No,No
+1188,44,Female,Kano,504410,3,20,Current,No,Yes,No
+1189,25,Male,Abuja,1410281,9,29,Current,No,Yes,No
+1190,54,Male,Abuja,245314,4,16,Current,No,No,No
+1191,26,Male,Ibadan,536998,6,2,Current,Yes,Yes,No
+1192,42,Male,Ibadan,967531,10,2,Current,No,Yes,No
+1193,31,Female,Abuja,485757,5,3,Current,No,Yes,Yes
+1194,36,Female,Ibadan,1443060,10,8,Savings,Yes,No,No
+1195,53,Female,Port Harcourt,528062,1,24,Savings,No,Yes,Yes
+1196,29,Male,Enugu,152028,9,28,Current,No,Yes,No
+1197,26,Female,Abuja,251447,1,15,Current,No,Yes,No
+1198,36,Male,Ibadan,880563,8,7,Current,No,No,Yes
+1199,49,Female,Abuja,1015843,9,6,Savings,Yes,Yes,No
+1200,23,Male,Kano,646045,9,9,Savings,No,Yes,No
+1201,40,Male,Lagos,321207,1,20,Current,No,No,No
+1202,56,Male,Enugu,1444945,2,28,Current,Yes,No,Yes
+1203,39,Female,Abuja,1447120,1,1,Savings,No,Yes,No
+1204,46,Female,Lagos,1411538,10,8,Savings,Yes,Yes,No
+1205,23,Female,Ibadan,286847,2,23,Savings,Yes,No,No
+1206,39,Female,Lagos,740488,10,23,Savings,Yes,No,No
+1207,40,Male,Enugu,616387,8,3,Current,No,No,No
+1208,52,Female,Abuja,439065,5,4,Savings,Yes,No,Yes
+1209,27,Female,Kano,707220,11,26,Savings,Yes,No,No
+1210,53,Male,Ibadan,51585,7,25,Current,Yes,No,No
+1211,59,Male,Abuja,1483807,2,15,Savings,No,No,Yes
+1212,38,Male,Enugu,1015043,8,6,Savings,No,Yes,No
+1213,21,Female,Ibadan,309102,11,15,Savings,No,No,Yes
+1214,31,Male,Port Harcourt,1356737,6,21,Current,No,No,No
+1215,48,Male,Lagos,1455397,8,3,Savings,No,Yes,No
+1216,45,Male,Enugu,982854,1,25,Current,No,No,No
+1217,43,Female,Port Harcourt,299922,1,21,Current,No,No,No
+1218,51,Male,Abuja,720601,7,21,Savings,Yes,Yes,No
+1219,50,Female,Kano,1110805,8,14,Savings,Yes,No,Yes
+1220,55,Female,Ibadan,1155228,3,20,Savings,Yes,Yes,No
+1221,27,Male,Lagos,934699,5,14,Savings,Yes,Yes,No
+1222,36,Male,Ibadan,269474,1,4,Current,No,Yes,Yes
+1223,46,Female,Abuja,932935,7,12,Savings,Yes,Yes,No
+1224,22,Male,Ibadan,280116,5,17,Savings,Yes,No,No
+1225,21,Male,Lagos,891310,8,7,Savings,Yes,Yes,No
+1226,32,Female,Abuja,964994,8,9,Current,Yes,Yes,No
+1227,25,Female,Ibadan,540985,9,3,Savings,No,No,No
+1228,57,Male,Kano,39975,7,28,Savings,No,Yes,No
+1229,52,Female,Enugu,177795,11,13,Current,No,Yes,Yes
+1230,29,Male,Abuja,1485071,1,15,Current,Yes,Yes,No
+1231,55,Male,Enugu,1277949,3,18,Savings,No,Yes,Yes
+1232,39,Male,Abuja,949065,8,19,Savings,Yes,No,No
+1233,36,Female,Kano,1044939,3,1,Savings,No,Yes,Yes
+1234,23,Male,Enugu,1265709,8,6,Savings,No,No,No
+1235,40,Male,Port Harcourt,894829,1,27,Savings,No,No,No
+1236,44,Male,Lagos,1363862,5,27,Current,No,Yes,No
+1237,53,Female,Port Harcourt,1244613,4,23,Current,No,Yes,Yes
+1238,44,Female,Ibadan,408076,5,27,Savings,Yes,Yes,Yes
+1239,31,Female,Kano,680008,8,27,Savings,No,Yes,Yes
+1240,28,Female,Port Harcourt,710493,10,2,Current,Yes,No,Yes
+1241,56,Female,Abuja,988181,4,24,Savings,Yes,No,Yes
+1242,58,Male,Ibadan,640347,11,14,Savings,Yes,No,No
+1243,40,Female,Ibadan,1032092,4,6,Savings,Yes,Yes,No
+1244,55,Female,Port Harcourt,642605,3,14,Savings,Yes,No,Yes
+1245,45,Female,Port Harcourt,745495,7,4,Savings,No,Yes,No
+1246,55,Male,Kano,1365766,3,21,Current,No,Yes,No
+1247,45,Female,Lagos,121459,3,8,Savings,No,Yes,No
+1248,49,Female,Port Harcourt,781985,11,3,Savings,No,Yes,Yes
+1249,38,Male,Port Harcourt,220422,10,19,Savings,Yes,Yes,No
+1250,38,Female,Enugu,1170096,5,14,Current,No,No,Yes
+1251,22,Male,Abuja,605560,5,27,Current,No,No,No
+1252,55,Male,Enugu,767512,6,20,Current,Yes,Yes,No
+1253,36,Male,Enugu,536123,8,17,Current,Yes,No,Yes
+1254,56,Male,Ibadan,1398369,10,25,Savings,No,Yes,No
+1255,53,Male,Lagos,346818,6,8,Current,No,Yes,No
+1256,24,Female,Abuja,1056548,1,24,Savings,Yes,Yes,Yes
+1257,53,Male,Kano,164832,8,14,Savings,No,No,No
+1258,34,Male,Kano,172999,8,26,Current,No,Yes,No
+1259,41,Female,Port Harcourt,368619,9,6,Current,No,Yes,No
+1260,40,Male,Port Harcourt,81367,9,23,Current,No,No,Yes
+1261,28,Female,Kano,773315,2,22,Current,Yes,No,No
+1262,27,Female,Port Harcourt,425804,2,16,Current,Yes,No,No
+1263,23,Female,Lagos,928182,3,25,Savings,Yes,Yes,No
+1264,37,Male,Enugu,777038,1,19,Current,No,Yes,Yes
+1265,53,Male,Port Harcourt,1304382,4,14,Current,No,No,Yes
+1266,32,Male,Ibadan,924586,4,19,Current,No,Yes,Yes
+1267,42,Female,Port Harcourt,1113314,9,3,Savings,No,No,No
+1268,42,Male,Abuja,577685,9,10,Current,No,No,No
+1269,50,Male,Lagos,1412909,9,19,Savings,Yes,Yes,No
+1270,58,Male,Abuja,1407087,10,9,Current,No,Yes,No
+1271,58,Female,Abuja,1062377,7,28,Current,No,No,No
+1272,28,Female,Ibadan,222332,2,20,Savings,Yes,No,Yes
+1273,47,Male,Lagos,402729,10,13,Current,No,No,No
+1274,47,Male,Lagos,1180029,5,7,Savings,Yes,No,Yes
+1275,54,Male,Lagos,1088392,4,14,Savings,Yes,Yes,No
+1276,41,Male,Lagos,979744,11,9,Savings,Yes,No,No
+1277,50,Female,Lagos,943780,8,27,Current,Yes,No,No
+1278,53,Female,Ibadan,789299,2,28,Current,Yes,No,No
+1279,48,Female,Port Harcourt,1485291,6,23,Current,No,Yes,Yes
+1280,53,Female,Abuja,1026080,5,25,Savings,Yes,Yes,Yes
+1281,25,Male,Lagos,391000,2,28,Current,Yes,No,Yes
+1282,39,Male,Port Harcourt,233567,11,19,Savings,No,Yes,No
+1283,24,Male,Port Harcourt,615923,10,15,Current,No,Yes,No
+1284,55,Female,Abuja,236184,1,20,Savings,Yes,Yes,No
+1285,37,Male,Ibadan,318090,8,14,Savings,No,No,Yes
+1286,48,Female,Kano,337348,2,24,Savings,No,No,No
+1287,50,Female,Kano,1251534,7,6,Current,Yes,Yes,No
+1288,49,Male,Port Harcourt,1009156,9,21,Savings,Yes,No,No
+1289,26,Male,Enugu,1346283,9,29,Savings,No,No,No
+1290,55,Male,Enugu,112324,8,4,Savings,Yes,Yes,No
+1291,57,Female,Abuja,243536,11,8,Savings,Yes,Yes,No
+1292,44,Male,Kano,1340567,10,17,Savings,No,No,Yes
+1293,49,Female,Port Harcourt,46155,9,9,Savings,Yes,Yes,No
+1294,51,Male,Ibadan,361815,2,1,Current,Yes,No,Yes
+1295,55,Female,Kano,480494,6,24,Current,Yes,No,No
+1296,53,Female,Port Harcourt,169381,4,20,Savings,Yes,Yes,No
+1297,41,Male,Port Harcourt,1200267,4,25,Current,Yes,No,No
+1298,52,Female,Lagos,463324,5,14,Current,No,No,No
+1299,43,Female,Ibadan,54707,3,11,Savings,No,Yes,No
+1300,53,Male,Lagos,957841,1,21,Savings,Yes,Yes,No
+1301,23,Female,Abuja,766788,8,3,Savings,No,Yes,No
+1302,38,Male,Lagos,373299,5,9,Current,Yes,No,No
+1303,45,Female,Lagos,1227068,3,27,Savings,Yes,Yes,No
+1304,51,Male,Kano,190102,10,14,Current,Yes,Yes,No
+1305,23,Male,Enugu,414274,7,9,Savings,Yes,Yes,No
+1306,44,Female,Port Harcourt,237285,7,4,Current,Yes,Yes,No
+1307,52,Female,Ibadan,1406980,1,27,Savings,No,No,No
+1308,42,Female,Lagos,1228052,9,4,Savings,No,No,No
+1309,43,Female,Ibadan,778842,2,28,Current,Yes,Yes,Yes
+1310,22,Female,Enugu,1042788,5,8,Current,No,No,Yes
+1311,47,Male,Enugu,1229504,5,2,Current,Yes,Yes,No
+1312,22,Female,Lagos,870610,8,9,Current,No,Yes,Yes
+1313,46,Male,Abuja,316141,8,29,Current,Yes,No,No
+1314,37,Male,Lagos,963115,7,14,Current,No,No,No
+1315,53,Female,Kano,1317076,7,22,Savings,Yes,Yes,No
+1316,29,Male,Port Harcourt,1200887,11,9,Current,Yes,Yes,No
+1317,59,Male,Abuja,265546,6,24,Savings,No,No,No
+1318,49,Male,Lagos,1265309,6,23,Savings,No,Yes,No
+1319,46,Male,Ibadan,671233,11,16,Current,Yes,No,No
+1320,55,Female,Abuja,1061592,9,29,Savings,No,Yes,No
+1321,45,Male,Abuja,166470,6,17,Current,Yes,Yes,No
+1322,44,Female,Lagos,664318,2,16,Current,No,No,Yes
+1323,33,Female,Abuja,1387223,2,12,Savings,No,No,No
+1324,27,Male,Ibadan,1075146,5,3,Savings,Yes,No,No
+1325,56,Female,Enugu,350929,4,11,Current,No,No,No
+1326,40,Female,Abuja,99141,11,14,Current,No,No,No
+1327,21,Female,Enugu,32115,2,18,Savings,Yes,No,Yes
+1328,28,Male,Ibadan,1107638,3,21,Savings,No,No,No
+1329,36,Female,Lagos,829343,7,21,Savings,Yes,Yes,No
+1330,34,Female,Port Harcourt,1363276,8,5,Savings,Yes,Yes,Yes
+1331,32,Female,Abuja,410479,6,16,Current,Yes,Yes,No
+1332,43,Male,Port Harcourt,850185,11,20,Current,Yes,No,No
+1333,35,Female,Ibadan,417686,5,5,Current,Yes,No,No
+1334,48,Male,Abuja,1190439,1,3,Current,No,No,Yes
+1335,54,Male,Enugu,816657,8,12,Savings,Yes,Yes,No
+1336,22,Male,Kano,667296,3,1,Savings,Yes,No,No
+1337,52,Male,Port Harcourt,1045799,6,21,Current,No,No,No
+1338,43,Male,Abuja,820101,3,29,Current,No,Yes,Yes
+1339,42,Male,Port Harcourt,1064257,7,9,Current,No,No,No
+1340,45,Female,Abuja,68320,7,29,Current,Yes,Yes,Yes
+1341,42,Male,Lagos,984918,9,9,Current,Yes,Yes,No
+1342,42,Female,Enugu,516758,5,4,Current,Yes,No,No
+1343,26,Female,Port Harcourt,1215225,8,3,Current,No,No,Yes
+1344,35,Male,Kano,1193930,10,17,Current,Yes,No,Yes
+1345,57,Female,Kano,632297,10,2,Current,No,Yes,Yes
+1346,53,Female,Ibadan,468625,8,24,Savings,Yes,Yes,No
+1347,28,Female,Abuja,48625,1,1,Current,No,Yes,No
+1348,25,Female,Port Harcourt,756400,5,8,Savings,Yes,No,No
+1349,59,Male,Ibadan,1354809,3,13,Savings,Yes,No,No
+1350,24,Female,Port Harcourt,1105063,1,23,Current,Yes,No,No
+1351,26,Male,Abuja,1296647,4,15,Current,No,No,No
+1352,52,Female,Kano,508011,8,8,Savings,No,Yes,Yes
+1353,50,Female,Lagos,1380858,3,12,Savings,Yes,Yes,No
+1354,55,Male,Kano,1242471,10,22,Current,Yes,Yes,No
+1355,36,Female,Ibadan,450424,2,12,Savings,Yes,Yes,No
+1356,33,Female,Enugu,336205,11,14,Current,No,No,No
+1357,50,Female,Lagos,968163,9,15,Current,Yes,No,No
+1358,39,Male,Ibadan,1067328,10,15,Current,Yes,No,No
+1359,37,Female,Abuja,121376,5,9,Savings,Yes,Yes,No
+1360,39,Male,Lagos,1493682,7,19,Savings,Yes,Yes,No
+1361,48,Female,Ibadan,853487,11,26,Current,No,No,No
+1362,46,Male,Abuja,787629,11,20,Savings,No,No,No
+1363,57,Male,Kano,1350228,2,29,Savings,Yes,Yes,No
+1364,46,Female,Enugu,178056,9,22,Savings,Yes,No,No
+1365,43,Female,Abuja,654457,9,8,Savings,No,Yes,Yes
+1366,29,Male,Port Harcourt,580347,4,21,Savings,No,Yes,No
+1367,32,Male,Abuja,482785,4,19,Savings,Yes,Yes,No
+1368,21,Female,Abuja,1052766,6,6,Savings,No,No,No
+1369,21,Male,Enugu,549992,10,20,Current,No,No,No
+1370,54,Female,Port Harcourt,998080,10,25,Savings,Yes,Yes,No
+1371,52,Female,Ibadan,748744,10,29,Savings,No,No,Yes
+1372,45,Female,Ibadan,762488,6,19,Savings,No,Yes,No
+1373,21,Female,Abuja,655567,1,4,Savings,Yes,Yes,Yes
+1374,36,Male,Port Harcourt,702568,9,23,Savings,Yes,Yes,No
+1375,59,Female,Port Harcourt,662804,2,7,Savings,No,Yes,No
+1376,25,Male,Enugu,542828,5,28,Savings,Yes,No,No
+1377,42,Female,Kano,498366,9,28,Savings,No,Yes,No
+1378,49,Male,Ibadan,741384,4,4,Current,Yes,Yes,No
+1379,23,Female,Enugu,977386,11,22,Savings,No,No,Yes
+1380,32,Male,Lagos,439139,3,12,Savings,Yes,Yes,No
+1381,46,Male,Ibadan,539777,7,13,Savings,No,Yes,No
+1382,36,Female,Enugu,1444764,6,3,Savings,No,No,No
+1383,57,Female,Ibadan,252549,8,22,Current,No,No,No
+1384,42,Female,Kano,504965,3,12,Current,Yes,No,Yes
+1385,49,Female,Lagos,810546,5,2,Current,Yes,Yes,No
+1386,34,Male,Kano,1002469,10,24,Current,No,No,No
+1387,48,Female,Lagos,56321,4,2,Current,No,No,Yes
+1388,25,Male,Abuja,355441,4,27,Current,Yes,Yes,Yes
+1389,50,Male,Enugu,1313590,4,23,Current,Yes,Yes,Yes
+1390,25,Female,Lagos,176498,10,9,Current,Yes,Yes,No
+1391,32,Male,Kano,1086348,8,1,Current,Yes,Yes,No
+1392,36,Male,Ibadan,810144,6,8,Current,Yes,Yes,No
+1393,46,Male,Lagos,414583,3,23,Current,Yes,No,No
+1394,46,Male,Enugu,258389,10,6,Current,No,No,No
+1395,41,Female,Lagos,659430,5,6,Current,Yes,No,No
+1396,59,Female,Port Harcourt,1120500,6,22,Current,No,Yes,No
+1397,56,Female,Ibadan,1419872,5,25,Current,Yes,Yes,No
+1398,53,Female,Enugu,1096299,6,18,Current,Yes,Yes,No
+1399,50,Male,Enugu,778470,8,17,Savings,No,No,No
+1400,57,Male,Abuja,684468,7,29,Current,No,No,No
+1401,43,Female,Kano,228786,5,12,Savings,Yes,Yes,Yes
+1402,30,Female,Abuja,706684,10,6,Current,No,No,Yes
+1403,25,Female,Enugu,1283008,6,26,Current,No,Yes,No
+1404,56,Male,Ibadan,1048400,4,27,Savings,No,No,Yes
+1405,54,Female,Lagos,1208575,9,8,Current,No,No,No
+1406,51,Female,Lagos,900112,4,19,Savings,Yes,No,Yes
+1407,30,Female,Ibadan,378690,1,28,Savings,No,Yes,Yes
+1408,39,Male,Enugu,959947,7,10,Savings,Yes,No,No
+1409,52,Male,Lagos,99973,7,1,Current,Yes,No,Yes
+1410,21,Male,Lagos,654122,4,25,Current,Yes,Yes,No
+1411,25,Male,Lagos,1068173,3,29,Current,Yes,No,Yes
+1412,24,Male,Kano,307681,8,13,Savings,No,Yes,No
+1413,36,Male,Kano,514509,5,17,Savings,No,Yes,No
+1414,44,Male,Port Harcourt,245049,10,3,Current,Yes,Yes,No
+1415,36,Male,Abuja,1337191,7,8,Current,Yes,Yes,No
+1416,22,Female,Ibadan,186703,4,14,Current,Yes,Yes,No
+1417,48,Female,Ibadan,784357,4,3,Current,Yes,No,No
+1418,52,Male,Ibadan,767419,8,16,Current,No,Yes,No
+1419,47,Male,Port Harcourt,1099924,8,13,Savings,Yes,Yes,No
+1420,40,Female,Kano,1264380,2,20,Savings,No,Yes,No
+1421,44,Male,Enugu,155832,2,24,Savings,Yes,Yes,No
+1422,32,Male,Enugu,1363499,3,17,Current,Yes,No,No
+1423,55,Male,Port Harcourt,303780,3,13,Savings,Yes,Yes,No
+1424,53,Female,Enugu,1122127,1,29,Savings,Yes,No,No
+1425,53,Female,Ibadan,424772,3,6,Savings,No,Yes,No
+1426,57,Female,Abuja,591107,6,17,Savings,No,No,Yes
+1427,32,Female,Lagos,1404490,8,14,Savings,No,Yes,No
+1428,23,Female,Kano,1028559,10,17,Current,Yes,Yes,No
+1429,21,Male,Kano,440182,6,8,Savings,Yes,No,Yes
+1430,53,Female,Port Harcourt,1281357,5,11,Current,No,Yes,No
+1431,30,Male,Kano,702347,4,20,Current,No,No,No
+1432,49,Male,Ibadan,1042378,3,28,Current,Yes,Yes,No
+1433,33,Female,Enugu,733708,4,1,Current,Yes,No,No
+1434,32,Female,Ibadan,568884,7,26,Current,No,Yes,No
+1435,51,Male,Port Harcourt,870538,1,7,Savings,Yes,Yes,Yes
+1436,22,Male,Ibadan,1045014,7,21,Savings,Yes,No,Yes
+1437,55,Male,Enugu,1007471,1,21,Current,No,Yes,Yes
+1438,43,Female,Abuja,79182,2,17,Current,Yes,Yes,No
+1439,37,Female,Port Harcourt,369307,4,10,Current,No,Yes,No
+1440,46,Female,Abuja,321454,1,11,Savings,Yes,Yes,Yes
+1441,28,Female,Lagos,1386808,11,22,Current,No,Yes,No
+1442,49,Female,Abuja,1208554,11,9,Savings,Yes,Yes,No
+1443,46,Male,Lagos,843346,11,9,Current,No,No,Yes
+1444,30,Female,Lagos,916782,9,24,Savings,No,No,Yes
+1445,46,Male,Abuja,790188,6,5,Current,No,No,Yes
+1446,54,Male,Port Harcourt,278517,1,17,Savings,No,Yes,No
+1447,27,Male,Enugu,975154,1,9,Current,Yes,No,No
+1448,24,Female,Ibadan,1377133,6,17,Savings,Yes,Yes,No
+1449,31,Female,Ibadan,157084,4,24,Savings,No,Yes,Yes
+1450,49,Female,Enugu,725475,4,21,Savings,Yes,Yes,No
+1451,56,Male,Lagos,602004,11,19,Savings,Yes,Yes,Yes
+1452,45,Male,Lagos,900179,6,27,Savings,Yes,No,No
+1453,41,Male,Port Harcourt,768013,11,7,Savings,Yes,Yes,No
+1454,56,Male,Kano,711738,7,23,Savings,Yes,No,No
+1455,30,Male,Abuja,1272078,9,9,Current,No,Yes,No
+1456,57,Male,Lagos,164539,10,7,Current,No,No,Yes
+1457,29,Female,Ibadan,444226,5,13,Current,No,No,No
+1458,44,Female,Port Harcourt,1190575,9,11,Current,No,No,No
+1459,55,Female,Abuja,1183369,4,14,Current,Yes,No,No
+1460,55,Female,Port Harcourt,1438897,10,19,Savings,Yes,No,No
+1461,56,Male,Abuja,32289,2,11,Savings,No,No,Yes
+1462,38,Male,Abuja,720336,3,13,Savings,Yes,Yes,No
+1463,59,Female,Enugu,718956,11,14,Savings,Yes,No,Yes
+1464,52,Male,Lagos,1325944,1,13,Savings,No,Yes,No
+1465,44,Female,Port Harcourt,106365,6,1,Current,Yes,No,No
+1466,43,Female,Port Harcourt,774950,6,8,Current,No,Yes,No
+1467,52,Female,Enugu,195211,1,12,Current,No,No,No
+1468,57,Male,Ibadan,1248361,11,19,Current,Yes,No,No
+1469,32,Female,Ibadan,1141164,3,12,Savings,Yes,Yes,No
+1470,33,Female,Lagos,83646,5,8,Savings,No,No,Yes
+1471,43,Female,Lagos,285798,3,8,Savings,No,No,No
+1472,45,Male,Kano,749532,10,29,Current,Yes,No,Yes
+1473,55,Male,Enugu,943945,3,21,Savings,No,Yes,No
+1474,50,Female,Ibadan,1188311,10,13,Current,No,No,No
+1475,37,Male,Abuja,175683,3,12,Savings,No,Yes,Yes
+1476,40,Male,Port Harcourt,926323,5,29,Savings,Yes,No,No
+1477,45,Male,Lagos,652259,5,16,Current,No,No,No
+1478,42,Male,Port Harcourt,556437,4,1,Savings,Yes,Yes,No
+1479,33,Male,Port Harcourt,1430822,1,13,Savings,No,No,Yes
+1480,39,Male,Kano,1389909,5,26,Current,Yes,No,No
+1481,56,Male,Ibadan,586956,10,7,Savings,No,Yes,Yes
+1482,32,Male,Lagos,1475465,5,28,Current,Yes,No,Yes
+1483,39,Male,Port Harcourt,1014170,4,26,Savings,Yes,Yes,Yes
+1484,32,Male,Lagos,632492,6,5,Savings,Yes,Yes,No
+1485,29,Female,Abuja,231830,10,8,Savings,No,Yes,Yes
+1486,27,Female,Kano,1265077,4,25,Savings,No,No,No
+1487,48,Male,Abuja,1485461,7,27,Savings,No,Yes,No
+1488,34,Female,Lagos,185140,7,14,Savings,Yes,Yes,No
+1489,51,Female,Lagos,1209083,2,23,Savings,No,No,Yes
+1490,39,Male,Ibadan,245160,3,13,Savings,Yes,Yes,No
+1491,36,Male,Port Harcourt,1251897,1,15,Current,No,No,No
+1492,25,Male,Port Harcourt,581672,8,23,Current,Yes,No,Yes
+1493,55,Female,Abuja,541998,9,17,Savings,Yes,No,Yes
+1494,32,Female,Kano,626217,4,15,Savings,Yes,No,No
+1495,45,Male,Enugu,95388,6,20,Current,No,Yes,Yes
+1496,41,Male,Port Harcourt,575689,9,18,Savings,No,Yes,Yes
+1497,56,Male,Ibadan,538727,6,18,Savings,No,Yes,No
+1498,43,Female,Abuja,252601,9,2,Current,Yes,Yes,Yes
+1499,36,Female,Abuja,1196410,4,4,Savings,Yes,Yes,No
+1500,59,Female,Enugu,1102660,8,1,Savings,No,No,Yes
+1501,59,Female,Ibadan,1320035,9,4,Current,No,Yes,No
+1502,34,Male,Kano,125111,4,18,Savings,No,Yes,No
+1503,51,Male,Ibadan,449667,5,5,Savings,Yes,Yes,No
+1504,25,Male,Kano,182982,8,19,Current,Yes,No,No
+1505,55,Male,Ibadan,318185,10,15,Savings,Yes,No,No
+1506,43,Female,Ibadan,1396401,6,28,Current,Yes,Yes,No
+1507,49,Female,Lagos,254386,7,8,Savings,Yes,No,No
+1508,31,Male,Abuja,1412291,3,20,Savings,No,Yes,No
+1509,38,Male,Ibadan,1265129,7,17,Current,Yes,Yes,No
+1510,32,Female,Enugu,481792,8,1,Current,Yes,No,No
+1511,29,Male,Ibadan,521174,10,12,Savings,Yes,No,Yes
+1512,30,Female,Port Harcourt,804625,6,26,Current,Yes,Yes,No
+1513,37,Male,Abuja,671844,10,19,Current,Yes,Yes,No
+1514,58,Male,Port Harcourt,215246,9,15,Savings,No,No,Yes
+1515,27,Male,Abuja,266242,6,9,Savings,Yes,Yes,No
+1516,33,Male,Port Harcourt,531083,9,7,Savings,Yes,No,Yes
+1517,29,Male,Ibadan,37633,4,2,Current,Yes,Yes,Yes
+1518,47,Male,Ibadan,1032384,8,29,Current,No,No,Yes
+1519,22,Male,Lagos,886964,11,9,Current,No,Yes,Yes
+1520,25,Female,Enugu,69104,4,10,Current,No,Yes,No
+1521,49,Female,Port Harcourt,979125,2,2,Savings,Yes,No,Yes
+1522,57,Female,Kano,883663,10,19,Current,No,Yes,No
+1523,58,Female,Lagos,1136964,11,11,Savings,Yes,Yes,No
+1524,39,Female,Port Harcourt,1161154,9,13,Current,Yes,No,Yes
+1525,28,Male,Port Harcourt,709115,5,10,Savings,No,Yes,No
+1526,21,Male,Lagos,584678,4,14,Savings,Yes,Yes,No
+1527,42,Female,Ibadan,1354431,2,18,Savings,Yes,Yes,No
+1528,37,Male,Port Harcourt,1160234,1,19,Current,Yes,No,Yes
+1529,27,Female,Ibadan,77993,11,22,Savings,No,No,No
+1530,45,Female,Lagos,225768,7,9,Savings,Yes,No,No
+1531,24,Male,Ibadan,1226861,6,25,Current,Yes,Yes,Yes
+1532,56,Male,Abuja,791148,2,7,Savings,No,Yes,Yes
+1533,26,Male,Kano,1042460,8,28,Current,Yes,Yes,No
+1534,51,Female,Port Harcourt,813853,11,3,Current,Yes,Yes,Yes
+1535,39,Male,Enugu,762296,4,20,Savings,No,No,No
+1536,59,Female,Kano,562015,8,6,Savings,Yes,Yes,No
+1537,47,Female,Ibadan,918850,7,27,Current,Yes,Yes,No
+1538,30,Female,Port Harcourt,1395828,5,21,Savings,Yes,Yes,No
+1539,46,Male,Ibadan,277681,10,2,Current,Yes,No,Yes
+1540,39,Male,Abuja,114018,10,29,Current,Yes,Yes,Yes
+1541,59,Female,Lagos,1455177,8,6,Current,No,Yes,No
+1542,23,Male,Port Harcourt,1362630,9,3,Savings,No,Yes,No
+1543,33,Male,Abuja,249104,5,16,Current,No,Yes,No
+1544,48,Male,Abuja,862186,10,8,Savings,No,Yes,No
+1545,40,Female,Port Harcourt,213510,5,2,Savings,Yes,No,Yes
+1546,48,Female,Ibadan,1178423,2,17,Savings,Yes,Yes,Yes
+1547,28,Male,Enugu,474162,5,9,Savings,Yes,Yes,No
+1548,59,Female,Abuja,844899,3,12,Current,Yes,Yes,Yes
+1549,21,Male,Kano,955129,7,3,Savings,Yes,Yes,No
+1550,23,Male,Abuja,1364613,10,11,Current,No,Yes,No
+1551,33,Male,Enugu,1144905,5,1,Current,No,Yes,No
+1552,48,Male,Ibadan,1099583,8,23,Savings,Yes,Yes,No
+1553,45,Female,Ibadan,1028806,1,13,Current,Yes,Yes,Yes
+1554,53,Female,Kano,714892,3,15,Current,Yes,Yes,No
+1555,58,Female,Abuja,1384973,3,26,Savings,No,Yes,No
+1556,26,Male,Ibadan,1080899,9,5,Current,Yes,No,No
+1557,52,Male,Enugu,917767,5,21,Current,Yes,No,No
+1558,41,Male,Port Harcourt,1180932,9,17,Current,Yes,No,No
+1559,36,Female,Lagos,655232,9,25,Current,No,No,Yes
+1560,41,Male,Lagos,224451,1,23,Savings,Yes,Yes,Yes
+1561,31,Female,Lagos,1347176,2,24,Current,No,No,No
+1562,57,Female,Abuja,575655,5,25,Current,No,No,No
+1563,56,Female,Kano,1123200,4,6,Current,No,Yes,Yes
+1564,55,Female,Ibadan,423322,10,28,Current,No,No,No
+1565,39,Female,Port Harcourt,1303141,9,21,Savings,No,No,No
+1566,40,Female,Enugu,88008,7,22,Current,No,Yes,Yes
+1567,38,Male,Port Harcourt,397539,6,11,Savings,Yes,Yes,No
+1568,34,Male,Enugu,136492,7,18,Current,Yes,Yes,No
+1569,35,Female,Abuja,92240,1,4,Savings,Yes,No,Yes
+1570,51,Female,Lagos,1395035,1,3,Savings,No,No,Yes
+1571,21,Male,Abuja,1006753,8,13,Savings,Yes,Yes,No
+1572,23,Female,Kano,745947,2,23,Savings,No,Yes,No
+1573,36,Female,Kano,292900,10,9,Savings,No,No,No
+1574,43,Male,Enugu,481227,11,21,Current,No,Yes,No
+1575,31,Female,Ibadan,1367098,9,6,Current,Yes,No,No
+1576,32,Female,Ibadan,155327,7,26,Current,No,Yes,No
+1577,30,Female,Enugu,669991,6,28,Savings,No,Yes,No
+1578,52,Male,Kano,862981,1,12,Current,Yes,No,Yes
+1579,36,Male,Kano,185575,1,2,Savings,Yes,Yes,Yes
+1580,28,Male,Kano,1063445,2,3,Savings,No,Yes,Yes
+1581,58,Female,Abuja,513948,6,3,Current,No,Yes,No
+1582,32,Female,Kano,1375833,6,28,Current,Yes,No,Yes
+1583,44,Male,Port Harcourt,249189,2,12,Savings,Yes,Yes,No
+1584,48,Female,Lagos,418465,1,15,Savings,Yes,Yes,Yes
+1585,28,Female,Kano,271051,10,9,Current,No,Yes,No
+1586,48,Female,Enugu,956705,5,23,Current,Yes,Yes,No
+1587,56,Female,Lagos,669829,5,8,Current,Yes,Yes,No
+1588,46,Female,Abuja,733936,2,11,Current,Yes,Yes,Yes
+1589,28,Male,Enugu,800641,6,16,Savings,No,No,No
+1590,48,Female,Lagos,291830,9,26,Current,Yes,No,No
+1591,48,Male,Enugu,335507,2,27,Current,Yes,Yes,Yes
+1592,57,Female,Abuja,379687,10,25,Current,Yes,No,No
+1593,56,Male,Port Harcourt,1244491,2,22,Savings,Yes,No,No
+1594,47,Female,Abuja,474179,3,4,Savings,Yes,Yes,Yes
+1595,37,Male,Abuja,1050596,7,28,Savings,No,No,No
+1596,29,Female,Enugu,62828,6,1,Savings,No,No,Yes
+1597,53,Male,Ibadan,855036,8,24,Current,No,No,No
+1598,40,Female,Kano,292670,8,7,Savings,Yes,No,Yes
+1599,33,Male,Kano,1094168,6,2,Current,No,No,Yes
+1600,48,Female,Port Harcourt,311126,11,24,Current,No,No,No
