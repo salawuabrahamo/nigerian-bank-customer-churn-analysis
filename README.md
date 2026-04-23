@@ -75,8 +75,8 @@ Savings account holders show slightly higher churn compared to current account h
 ---
 
 ## 📁 Project Files
-- Dataset (CSV file)  
-- Power BI Dashboard (.pbix file)  
+- Dataset/nigerian_bank_churn_600.csv (Dataset)  
+- Power BI/BANK CHURN.pbix (Dashboard)  
 - Dashboard Screenshots  
 - Project Documentation  
 
