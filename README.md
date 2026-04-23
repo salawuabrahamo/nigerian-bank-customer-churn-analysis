@@ -1,3 +1,4 @@
+![Dashboard Screenshot] (Captur.PNG)
 # 📊 Nigerian Bank Customer Churn Analysis
 
 ## 📌 Project Overview
