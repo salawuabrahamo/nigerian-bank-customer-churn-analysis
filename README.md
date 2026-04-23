@@ -1,4 +1,4 @@
-![Dashboard Screenshot](Captur.PNG)
+![Dashboard Screenshot](Capture3.PNG)
 # 📊 Nigerian Bank Customer Churn Analysis
 
 ## 📌 Project Overview
@@ -6,7 +6,6 @@ This project analyzes customer churn behavior in a Nigerian bank using Power BI.
 
 Rather than focusing only on dashboard creation, this project emphasizes **business understanding, customer behavior, and decision-making using data**.
 
----
 
 ## 🎯 Objectives
 - Calculate and analyze customer churn rate  
@@ -14,7 +13,6 @@ Rather than focusing only on dashboard creation, this project emphasizes **busin
 - Understand customer behavior patterns  
 - Provide recommendations to improve retention  
 
----
 
 ## ❓ Key Business Questions
 This analysis was guided by the following questions:
@@ -28,8 +26,6 @@ This analysis was guided by the following questions:
 - Does account type influence customer retention?  
 - What is the gender distribution of churned customers?  
 
----
-
 ## 📊 Key Metrics
 - Total Customers: **600**  
 - Churned Customers: **167**  
@@ -37,7 +33,6 @@ This analysis was guided by the following questions:
 - Average Account Balance: **768K**  
 - Average Transactions per Month: **15**  
 
----
 
 ## 🔍 Key Insights
 
@@ -59,7 +54,6 @@ Churn exists across both genders, with slight variation in distribution.
 ### 🏦 Account Type Influence
 Savings account holders show slightly higher churn compared to current account holders.
 
----
 
 ## 💡 Business Recommendations
 - Improve onboarding for new customers  
@@ -67,21 +61,17 @@ Savings account holders show slightly higher churn compared to current account h
 - Target low-activity customers with incentives  
 - Focus retention strategies on high-churn regions  
 
----
 
 ## 🛠 Tools Used
 - Power BI (Dashboard & Visualization)  
 - Excel / CSV (Data Source)  
 
----
 
 ## 📁 Project Files
-- Dataset/nigerian_bank_churn_600.csv (Dataset)  
-- Power BI/BANK CHURN.pbix (Dashboard)  
+- Dataset (CSV file)  
+- Power BI Dashboard (.pbix file)  
 - Dashboard Screenshots  
 - Project Documentation  
-
----
 
 ## 📽️ Project Demo
 *A video walkthrough of the dashboard is included in this repository.*
